@@ -10,11 +10,11 @@ It's the home to API controllers. It's also responsible for handling HTTP reques
 In short, It is the main program of the project where we can do CRUD operations.<br>
 
 > <p>
-    > <b>Create</b> - [HttpPost] is used to create a new item <br>
-    > <b>Retrieve</b> - [HttpGet] is used to retrieve all the stored item in the Data directory<br>
-    > <b>Update</b> - [HttpPut] and [HttpPatch] is used to update an item already stored.<br>
-    > <b>Delete</b> - [HttpDelete] is used to remove an item already stored<br>
-  </p>
+  > <b>Create</b> - [HttpPost] is used to create a new item <br>
+  > <b>Retrieve</b> - [HttpGet] is used to retrieve all the stored item in the Data directory<br>
+  > <b>Update</b> - [HttpPut] and [HttpPatch] is used to update an item already stored.<br>
+  > <b>Delete</b> - [HttpDelete] is used to remove an item already stored<br>
+</p>
 
 <h2>Data</h2>
 This is used to store default data layer for the Model. Need to include DB to keep changes permanently.<br>
