@@ -1,26 +1,38 @@
 # BookManagementAPI
-This project is based on RESTful API running on dot net core 8.
-Built on Visual Studio Code.
+<p>
+  This project is based on RESTful API running on dot net core 8.<br>
+  Built on Visual Studio Code.
+</p>
 
-To begin,
-dotnet new webapi -n BookManagementAPI
-cd BookManagementAPI
+<p>
+  To begin,
+  > dotnet new webapi -n BookManagementAPI<br>
+  > cd BookManagementAPI<br>  
+</p>
 
-to code,
-code .
+<p>
+  to code,<br>
+  > code .
+</p>
 
-To run,
-dotnet run
+<p>
+  To run,<br>
+  > dotnet run
+</p>
 
-It's always recommend to do this everytime for running
-dotnet clean
-dotnet build
-dotnet run
+<p>
+  It's always recommend to do this everytime for running<br>
+  > dotnet clean<br>
+  > dotnet build<br>
+  > dotnet run<br>
+</p>
 
 
-To install if not working,
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.InMemory
-dotnet add package Swashbuckle.AspNetCore
+<p>
+  To install if not working,<br>
+  > dotnet add package Microsoft.EntityFrameworkCore<br>
+  > dotnet add package Microsoft.EntityFrameworkCore.InMemory<br>
+  > dotnet add package Swashbuckle.AspNetCore<br>
+</p>
 
 
