@@ -1,8 +1,8 @@
 The project consist of 3 pillars<br>
 > <p>
-  > *Controllers*<br>
-  > *Data*<br>
-  > *Models*<br>
+  > <b>Controllers</b><br>
+  > <b>Data</b><br>
+  > <b>Models</b><br>
 </p>
 
 <h2>Controllers</h2><br>
@@ -10,10 +10,10 @@ It's the home to API controllers. It's also responsible for handling HTTP reques
 In short, It is the main program of the project where we can do CRUD operations.<br>
 
 > <p>
-    > *Create* - [HttpPost] is used to create a new item <br>
-    > *Retrieve* - [HttpGet] is used to retrieve all the stored item in the Data directory<br>
-    > *Update* - [HttpPut] and [HttpPatch] is used to update an item already stored.<br>
-    > *Delete* - [HttpDelete] is used to remove an item already stored<br>
+    > <b>Create</b> - [HttpPost] is used to create a new item <br>
+    > <b>Retrieve</b> - [HttpGet] is used to retrieve all the stored item in the Data directory<br>
+    > <b>Update</b> - [HttpPut] and [HttpPatch] is used to update an item already stored.<br>
+    > <b>Delete</b> - [HttpDelete] is used to remove an item already stored<br>
   </p>
 
 <h2>Data</h2>
