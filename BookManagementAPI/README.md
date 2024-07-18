@@ -23,4 +23,4 @@ This is used to store default data layer for the Model. Need to include DB to ke
 This stores the classes that represent the data of the application. 
 
 ## Important
-include .AddNewtonsoftJson() to include json for activating JsonPatch
+include <b>.AddNewtonsoftJson()</b> to include json for activating JsonPatch
