@@ -6,25 +6,25 @@
 
 > <p>
   To begin,<br>
-  dotnet new webapi -n BookManagementAPI<br>
-  cd BookManagementAPI<br>  
+  > dotnet new webapi -n BookManagementAPI<br>
+  > cd BookManagementAPI<br>  
 </p>
 
 > <p>
   to code,<br>
-  code .
+  > code .
 </p>
 
 > <p>
   To run,<br>
-  dotnet run
+  > dotnet run
 </p>
 
 > <p>
   It's always recommend to do this everytime for running<br>
-  dotnet clean<br>
-  dotnet build<br>
-  dotnet run<br>
+  > dotnet clean<br>
+  > dotnet build<br>
+  > dotnet run<br>
 </p>
 
 
