@@ -24,3 +24,11 @@
   > <b>404</b> - Not Found<br>
   > <b>500</b> - InternalServerError<br>
 </p>
+
+##JsonPatch codes for [HttpPatch]
+> <p>
+  > <b>[{ "op": "replace", "path": "/field", "value": "string"}]</b> - Replace old text with string<br>
+  > <b>[{ "op": "add", "path": "/field", "value": ["string"]}]</b> - To add a new Field and value as string<br>
+  > <b>[{ "op": "remove", "path": "/field"}]</b> - To remove a field.
+  > 
+</p>
