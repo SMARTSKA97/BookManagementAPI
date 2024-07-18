@@ -12,6 +12,7 @@ namespace BookManagementAPI.Controllers
     [ApiController]
     public class BookManagementAPIController : ControllerBase
     {
+        //GET ALL
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public ActionResult<IEnumerable<BookDTO>> GetBooks()
@@ -19,6 +20,7 @@ namespace BookManagementAPI.Controllers
             return Ok(BookStore.BookList);
         }
 
+        //GET Certain Data using ID
         [HttpGet("{Id:int}", Name ="GetBook")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -44,6 +46,7 @@ namespace BookManagementAPI.Controllers
             }
         }
 
+        //Creating A New Data
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -68,6 +71,7 @@ namespace BookManagementAPI.Controllers
             return CreatedAtRoute("GetBook", new { Id = bookDTO.Id }, bookDTO); 
         }
 
+        //Removal of Data using ID
         [HttpDelete("{id:int}", Name ="DeleteBook")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -87,6 +91,7 @@ namespace BookManagementAPI.Controllers
             return NoContent();
         }
 
+        //Update Whole Data
         [HttpPut("{id:int}", Name ="Update Book")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -104,6 +109,7 @@ namespace BookManagementAPI.Controllers
             return NoContent();
         }
 
+        //Update Certain Data using JSON Patch
         [HttpPatch("{id:int}", Name = "Update Partial Book")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
