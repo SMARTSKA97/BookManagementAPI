@@ -1,9 +1,11 @@
-<h2>Important Key Takeaways</h2>
+
+## Important Key Takeaways
 > <p>
   > [Route("api/BookManagementAPI")]<br>
   > [ApiController]
+</p>
 
-<h2>Some Attributes/Methods</h2><br>
+## Some Attributes/Methods
 > <p>
   > [HttpGet] - To Retrieve all data<br>
   > [HttpGet("{Id:int}", Name ="GetBook")] - To Retrieve certain data based on id <br>
